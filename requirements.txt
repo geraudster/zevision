@@ -4,7 +4,7 @@ dlib
 pillow
 opencv-python
 pandas
-tensorflow
+tensorflow<2.0.0
 keras
 imutils
 Flask==1.0.2

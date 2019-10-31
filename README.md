@@ -20,7 +20,14 @@ On a Ubuntu 16.04 terminal, while in the repository's directory, launch `sudo ba
 Support for Windows and MacOS is coming soon.
 
 #### Using Docker
-In progress
+
+Install docker as described [here](https://docs.docker.com/install/), then build `face-recognition` image:
+
+```
+docker build -t face-recognition .
+```
+
+See [here](https://github.com/zenika-open-source/zevision/tree/master/api#docker) for an example of `docker run`.
 
 # Library Usage Guide
 
